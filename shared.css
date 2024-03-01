@@ -1,0 +1,94 @@
+@font-face{
+    font-family: "MemphisRiver";
+    src:url(./resources/fonts/Memphis\ River.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.main-header{
+    width:100%;
+    display: flex;
+    padding: 10px 16px 8px 16px;
+    background-image: linear-gradient(to right, white 12%, purple 30%,black);
+}
+
+.main-header > section {
+    display: inline-block;
+    vertical-align: middle;
+    padding:1px;
+}
+
+.main-header__anchor{
+    display:block;
+}
+
+/*.main-header__logo{
+}*/
+
+.logo{
+    height:40px;
+    width:100px;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 105px);
+    vertical-align: middle;       
+}
+
+.main-nav__items{
+    list-style: none;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    height:100%;
+}
+.main-nav__item{
+    display: inline-block; 
+    margin: 0 20px;  
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color:lightpink;
+    cursor: pointer;
+    border-bottom: 2px solid lightpink;
+    font-size: 140%;
+}
+
+li:last-child a{
+    color: black;
+    background: white;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border-bottom: none;
+}
+li:last-child:hover,
+li:last-child:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+    border-bottom: none;
+    font-size: 18px;
+}
+
+
+h1{
+    font-family:"MemphisRiver";
+}
