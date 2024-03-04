@@ -11,51 +11,79 @@
 <body>
     <header class="main-header">
         <section class="main-header__logo">
-            <a class="main-header__anchor" href="./index.html"><img class="logo" src="./resources/images/logo.png"></a>
+            <a class="main-header__anchor" href="./index.html"><img class="logo" src="./resources/images/logo_small.png"></a>
         </section>
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="./pages/pricing_table.html">Pricing</a>
+                    <a href="./pages/pricing_table.html" class="main-nav__anchor">Pricing</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="./pages/products.html">Products</a>
+                    <a href="./pages/products.html" class="main-nav__anchor">Products</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="./pages/magazine.html">Magazine</a>
+                    <a href="./pages/magazine.html" class="main-nav__anchor">Magazine</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="./pages/gallery.html">Gallery</a>
+                    <a href="./pages/gallery.html" class="main-nav__anchor">Gallery</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="./pages/parallax_scrolling.html">Parallax</a>
+                    <a href="./pages/parallax_scrolling.html" class="main-nav__anchor">Parallax</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="./pages/error.html">Error</a>
+                    <a href="./pages/error.html" class="main-nav__anchor">Error</a>
                 </li>
-                <li class="main-nav__item">
-                    <a href="./pages/want_u.html">I want U</a>
+                <li class="main-nav__item" id="action-button">
+                    <a href="./pages/want_u.html" class="main-nav__anchor">I want U</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <img src="./resources/images/banner.jpg">
+        <section class="banner-container">            
+            <h1 class="main-title">Landing page with flex</h1>
         </section>
-        <section class="cards=container">
-
+        <section class="main-cards__container">
+            <section class="main-card">
+                <img src="./resources/images/nose.jpg" class="main-card__img">
+                <h4 class="main-card__title">Card 1</h4>
+                <p class="main-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, voluptatem? Minima, ad ullam, nostrum ab temporibus repellendus aut expedita dolor libero fugit, saepe deserunt illum neque. Quibusdam architecto distinctio cum?</p class="main-card__text">  
+            </section>
+            <section class="main-card">
+                <img src="./resources/images/hoof.jpg" class="main-card__img">
+                <h4 class="main-card__title"> Card 2</h4>
+                <p class="main-card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p class="main-card__text">  
+            </section>
+            <section class="main-card">
+                <img src="./resources/images/eye.jpg" class="main-card__img">
+                <h4 class="main-card__title"> Card 4</h4>
+                <p class="main-card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem id sapiente eum, suscipit doloremque aperiam explicabo magni minus velit dolorem!</p class="main-card__text">  
+            </section>
         </section>
-        <section class="guessWhat-container">
-
+        <section class="curiosity-container">
+            <section class="curiosity-card">
+                <h3 class="curiosity-title">Did you know ... ?</h3>
+                <p class="curiosity-text"> Lucy is not a <em>divoholic</em> anymore! She learnt about <strong>semnatic</strong> coding in January
+                    2024 and started applying that knowledge to all her projects. As a result, 
+                    this landing page has 0 divs!
+                </p>
+            </section>
         </section>
 
     </main>
-    <footer>
-        <section>
-            <a></a>
-            <img>
-        </section>
+    <footer class="main-footer">        
+        <ul class="main-footer__items">
+            <li class="main-footer__item">
+                <a href="./pages/want_u.html" class="main-footer__anchor">Hire Lucy</a>
+            </li>
+            <li class="main-footer__item">
+                <a href="https://www.linkedin.com/in/lucia-mackova/" class="main-footer__anchor">Lucy's LinkedIn</a>
+            </li>
+            <li class="main-footer__item">
+                <a href="https://github.com/LucyMacko" class="main-footer__anchor"> Lucy's GitHub</a>
+            </li>
+        </ul>        
     </footer>    
 </body>
 </html>
