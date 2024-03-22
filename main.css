@@ -5,7 +5,7 @@
     object-fit: fill;
     background-position: 0px -350px;
     position:relative;
-    margin-top: 68px;
+    margin-top: 4.25rem;
 }
 
 .main-title{
@@ -16,7 +16,7 @@
     bottom: 7%;
     left: 65%;
     border: 2px solid purple;
-    padding:12px 24px;
+    padding:0.75rem 1.5rem;
     border-radius: 25px;
     text-shadow: 8px 12px 12px black;
 }
@@ -25,7 +25,7 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
-   margin: 45px 0px;
+   margin: 2.81rem 0px;
 }
 
 .main-card{
@@ -34,21 +34,21 @@
     flex-direction: column;
     border: 1px solid lightgray;
     border-radius: 20px;
-    padding:20px;
+    padding:1.25px;
     box-shadow: 4px 4px 12px slategray;
     max-width: 350px;
     min-width: 250px;
     align-items: center;
-    margin:25px;   
+    margin:1.563rem;   
         
 }
 
 .main-card__img{
-    width:150px;
-    height: 150px;
-    border-radius: 25px;
+    width:200px;
+    height: 200px;
+    border-radius: 15px 50px;
     object-fit: cover;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     
 }
 .main-card__title{
@@ -57,36 +57,40 @@
 }
 
 .main-card__text{
-    margin:20px;
+    margin:1.25rem;
     text-align: justify;
+    line-height: 1.6;
 }
 .curiosity-container{
-    height: 300px;
+    display:flex;
+    height: 400px;
     width:100%;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    padding: 25px 0px;
+    background-color: purple ;
+    background-image: linear-gradient(purple 70%, black);
+    padding: 1.563rem 0px;
+    box-shadow: 0px -12px 5px purple;
+    border-radius: 10px 10px 0 0;
 }
 .curiosity-card{
-    max-width: 1000px;
+    max-width: 1600px;
     max-height:500px;
-    border: 1px solid purple;
-    margin:auto;
-    border-radius: 5px;
-    box-shadow: 2px 2px 8px slategray;
-    background-color: lightgray;  
+    margin:auto;      
+}
+.main-card:hover{
+    transform: translate3D(0,-1px,0) scale(1.2);
 }
 
 .curiosity-title{
-    margin-top: 30px;
-    margin-left: 90px;
+    margin-top: 1.875rem;
+    margin-left: 5.625rem;
     font-size: 45px;
+    color:white;
 }
 
 .curiosity-text{
     text-align: justify;
-    margin: 30px 60px;
-    z-index: 1;
+    margin: 1.875rem 3.75rem;
     font-size: 25px;
     line-height: 1.6;
+    color:white;
 }
